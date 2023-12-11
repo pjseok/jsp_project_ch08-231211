@@ -16,5 +16,12 @@
 	학생이름 : <jsp:getProperty property="name" name="student"/><br>
 	학생나이 : <jsp:getProperty property="age" name="student"/><br>
 	학생학년 : <jsp:getProperty property="grade" name="student"/><br>
+	
+	<br>
+	* EL표기법 사용<br>
+	학생이름 : ${student.name}<br>
+	학생나이 : ${student.age}<br>
+	학생학년 : ${student.grade }
+	
 </body>
 </html>
